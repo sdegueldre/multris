@@ -1,0 +1,35 @@
+{
+  "name": "multris",
+  "version": "0.1.0",
+  "description": "A mutliplayer tetris game",
+  "main": "index.js",
+  "scripts": {
+    "dev": "(npm start) & parcel watch src/client/index.html",
+    "start": "node src/server/index.js dist",
+    "build": "parcel build src/client/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdegueldre/multris.git"
+  },
+  "keywords": [
+    "tetris",
+    "game",
+    "multiplayer"
+  ],
+  "author": "Samuel Degueldre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sdegueldre/multris/issues"
+  },
+  "homepage": "https://github.com/sdegueldre/multris#readme",
+  "dependencies": {
+    "parcel": "^1.12.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "sass": "^1.26.3"
+  }
+}

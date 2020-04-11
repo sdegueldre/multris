@@ -4,6 +4,9 @@ module.exports = {
     env: {
         browser: true,
     },
-    parserOptions,
+    parserOptions: {
+        ecmaVersion: 8,
+        sourceType: "module",
+    },
     rules,
 };
